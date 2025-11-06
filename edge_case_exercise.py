@@ -1,5 +1,5 @@
 def move(my_list, direction):
-
+    
     # Finds the index of the one in the list
     index_of_one = my_list.index(1)
 
@@ -14,3 +14,7 @@ def move(my_list, direction):
 
     return my_list
     
+my_list = [0, 0, 0, 1]
+direction = "left"
+
+print(move(my_list, direction))
